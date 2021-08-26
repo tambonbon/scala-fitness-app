@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    ports:
+    - "9000:9000"
+
+  db:
+    image: postgres
+    volumes:
+    - ./data:/var/lib/postgres/data
+    environment:
+      POSTGRES_DB: fitness
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+    - "5433:5432"
