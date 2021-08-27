@@ -1,1 +1,1 @@
-web: scala-fitness-app-1.0/bin/scala-fitness-app
+web: target/universal/stage/bin/scala-fitness-app -Dhttp.port=${PORT} -Dplay.evolutions.db.default.autoApply=true

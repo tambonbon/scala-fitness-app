@@ -9,6 +9,7 @@ import play.api.data.validation.Constraints._
 import play.api.i18n._
 import play.api.libs.json.Json
 import play.api.mvc._
+import play.api.db._
 
 import scala.concurrent.{ExecutionContext, Future}
 
@@ -16,7 +17,26 @@ class PersonController @Inject()(repo: PersonRepository,
                                   cc: MessagesControllerComponents
                                 )(implicit ec: ExecutionContext)
   extends MessagesAbstractController(cc) {
-
+  
+//  def db = Action {
+//    var out = ""
+//    val conn = DB.getConnection()
+//    try {
+//      val stmt = conn.createStatement
+//
+//      stmt.executeUpdate("CREATE TABLE IF NOT EXISTS ticks (tick timestamp)")
+//      stmt.executeUpdate("INSERT INTO ticks VALUES (now())")
+//
+//      val rs = stmt.executeQuery("SELECT tick FROM ticks")
+//
+//      while (rs.next) {
+//        out += "Read from DB: " + rs.getTimestamp("tick") + "\n"
+//      }
+//    } finally {
+//      conn.close()
+//    }
+//    Ok(out)
+//  }
   /**
    * The mapping for the person form.
    */
