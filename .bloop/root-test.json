@@ -29,7 +29,6 @@
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/h2database/h2/1.4.199/h2-1.4.199.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/slick/slick_2.13/3.3.3/slick_2.13-3.3.3.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar",
-            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic-extras_2.13/0.12.2/circe-generic-extras_2.13-0.12.2.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_2.13/0.12.3/circe-parser_2.13-0.12.3.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/dripower/play-circe_2.13/2812.0/play-circe_2.13-2812.0.jar",
@@ -88,6 +87,7 @@
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.14/akka-stream_2.13-2.6.14.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.14/akka-parsing_2.13-10.1.14.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar",
+            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.3/shapeless_2.13-2.3.3.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/0.14.2/jawn-parser_2.13-0.14.2.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.12.3/circe-numbers_2.13-0.12.3.jar",
@@ -473,23 +473,6 @@
                             "name": "postgresql",
                             "classifier": "sources",
                             "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.zaxxer",
-                    "name": "HikariCP",
-                    "version": "3.2.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "HikariCP",
-                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar"
-                        },
-                        {
-                            "name": "HikariCP",
-                            "classifier": "sources",
-                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0-sources.jar"
                         }
                     ]
                 },
@@ -1476,6 +1459,23 @@
                             "name": "aopalliance",
                             "classifier": "sources",
                             "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.zaxxer",
+                    "name": "HikariCP",
+                    "version": "3.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "HikariCP",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar"
+                        },
+                        {
+                            "name": "HikariCP",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0-sources.jar"
                         }
                     ]
                 },
