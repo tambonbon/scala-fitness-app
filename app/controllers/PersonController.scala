@@ -13,6 +13,8 @@ import play.api.db._
 
 import scala.concurrent.{ExecutionContext, Future}
 
+import repositories.PersonRepository
+
 class PersonController @Inject()(repo: PersonRepository,
                                   cc: MessagesControllerComponents
                                 )(implicit ec: ExecutionContext)

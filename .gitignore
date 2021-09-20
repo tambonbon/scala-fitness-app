@@ -40,3 +40,5 @@ target
 /data/
 /scala-fitness-app-1.0
 /.bsp
+/.vscode
+/.metals

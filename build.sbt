@@ -18,6 +18,9 @@ lazy val root = (project in file("."))
 //        evolutions,
 //        ws,
 //        "org.slf4j" % "slf4j-nop" % "1.6.4",
+      "io.circe" %% "circe-generic-extras" % "0.12.2",
+      "io.circe" %% "circe-parser" % "0.12.2",
+      "com.dripower" %% "play-circe" % "2812.0", // compatible with Play 2.8.x
     ),
     scalacOptions ++= Seq(
       "-feature",
